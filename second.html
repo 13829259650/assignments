@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Two</title>
+</head>
+<style>
+  body{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 50px 1300px 50px; 
+    grid-template-areas: "header header"
+                          "main aside"
+                          "footer footer";
+  }
+  header{
+    grid-area: header;
+  }
+  main{
+    border-style: solid;
+    grid-area: main;
+    background-color: rgb(221, 196, 253);
+    margin-top: 45px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  aside{
+    border-style: solid;
+    grid-area:aside;
+    margin-top: 45px;
+    background-color: rgb(226, 210, 248);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  footer{
+    border-style: solid;
+    grid-area: footer;
+    background-color: rgb(138, 43, 255);
+  }
+  nav ul{
+    list-style-type: none;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+  }
+  nav ul li a{
+    color: rgb(29, 23, 16);
+    padding: 8px 16px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: blueviolet;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    background-color: rgb(69, 53, 239);
+    color: rgb(211, 207, 207);
+  }
+</style>
+<body>
+  <header><nav>
+    <ul>
+      <li><a href="https://13829259650.github.io/0928/index.html">Assignment1</a></li>
+      <li><a href="https://13829259650.github.io/0928/second.html">Assignment2</a></li>
+      <li><a href="https://13829259650.github.io/0928/third.html">Assignment3</a></li>
+      <li><a href="https://13829259650.github.io/0928/fourth.html">Assignment4</a></li>
+      <li><a href="https://13829259650.github.io/0928/fifth.html">Assignment5</a></li>
+    </ul>
+  </nav></header>
+
+  <main><b>The Assignment2</b>
+    <p>Welcome! </p>
+    <p> In this assignment, I did some analysis of openrice, which is quite intersting and challenging to me.
+      In general, I crawled through the data to find out the following information about the new restaurants in Openrice. This includes, restaurant name, restaurant address, number of restaurant discussions, number of positive restaurant reviews, number of negative restaurant reviews, number of restaurant favorites and also the spending level of the restaurant.
+      Based on this, I carried out three questions for analysis.
+      
+      <p> <b>Question One: Which is the most popular restaurant?</b></p>
+      <p> By ranking the number of reviews, I obtained the top 10 restaurants with the most reviews. That is, the most popular new restaurants.</p>
+      <img src="https://github.com/13829259650/Assignment-one-update/blob/main/TOP10.jpg?raw=true" height="300" />
+
+      <p> <b>Question Two:Which is the most cost-effective new restaurant? </b></p>
+      <p> By calculating the consumption price range and splitting them into minimum and maximum consumption, I tried to summarize the restaurants with the most value for money.</p>
+      <img src="https://github.com/13829259650/Assignment-one-update/blob/main/cost-effctive.jpg?raw=true" height="300"/>
+
+      <p> <b>Question Three: What is the average spending of the new restaurant?</b></p>
+      <p> Through on openrice, the restaurant will list the price range, and by grabbing this data, I simply calculated the average spending price of the new restaurant.</p>
+      <img src="https://github.com/13829259650/Assignment-one-update/blob/main/avg.jpg?raw=true" height="70"/>
+
+      <p> <a href="https://hkdesign.org/assignment-2%ef%bc%9aanalysis-of-openrice/">For more reflections you can click here</a></p>
+  </p></main>
+
+
+
+  <aside><li class="Assignment1">
+    <a href="https://13829259650.github.io/0928/index.html" title="Links to assignment1.">
+      <abbr title="Link to assignment1">Assignment1</abbr>		</a>
+  </li>
+  <li class="Assignment2">
+    <a href="https://13829259650.github.io/0928/second.html" title="Links to assignment2.">
+      <abbr title="Link to assignment2">Assignment2</abbr>		</a>
+  </li>
+  <li class="Assignment3">
+    <a href="https://13829259650.github.io/0928/third.html" title="Links to assignment3.">
+      <abbr title="Link to assignment3">Assignment3</abbr>		</a>
+  </li>
+  <li class="Assignment4">
+    <a href="https://13829259650.github.io/0928/fourth.html" title="Links to assignment4.">
+      <abbr title="Link to assignment4">Assignment4</abbr>		</a>
+  <li class="Assignment5">
+    <a href="https://13829259650.github.io/0928/fifth.html" title="Links to assignment5.">
+      <abbr title="Link to assignment5">Assignment5</abbr>		</a>
+  </li></aside>
+  
+  <!-- main supporting/zen-supporting <footer>
+    <a href="http://validator.w3.org/check/referer" title="Check the validity of this site’s HTML" class="zen-validate-html"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site’s CSS" class="zen-validate-css">CSS</a>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike." class="zen-license">CC</a>
+    <a href="http://mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site" class="zen-accessibility">A11y</a>
+    <a href="https://github.com/mezzoblue/csszengarden.com" title="Fork this site on Github" class="zen-github">GH</a>
+  </footer>-->
+</body>
+</html>
